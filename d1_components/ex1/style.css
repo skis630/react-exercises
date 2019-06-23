@@ -1,3 +1,9 @@
 body {
     background: thistle;
 }
+
+ul {
+    border: 3px solid black;
+    width: 100px;
+    padding-bottom: 20px;
+}
