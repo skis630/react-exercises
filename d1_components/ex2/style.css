@@ -1,3 +1,28 @@
 body {
     background: thistle;
 }
+
+.box1 {
+    width: 375px;
+    background-color:rgb(103, 235, 103);
+    height: 150px;
+    padding: 20px;
+}
+
+.box2 {
+    height: 110px;
+    padding: 20px;
+    background-color:rgb(99, 211, 226);
+}
+
+.box3 {
+    background-color:rgb(233, 160, 229);
+    height: 70px;
+    padding: 20px;
+}
+
+.box4 {
+    background-color:rgb(146, 100, 140);
+    height: 30px;
+    margin: 5px 30px; 
+}

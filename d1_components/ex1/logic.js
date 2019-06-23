@@ -13,7 +13,12 @@ class MyFirstComponent extends React.Component {
     }
 }
 
-ReactDOM.render(
+function render() {
+    ReactDOM.render(
     <MyFirstComponent/>,
     document.getElementById("root")
-);
+    );
+}
+
+render();
+
