@@ -1,4 +1,3 @@
-
 class Calculator extends React.Component {
     buildTemplate(customHeading, resultId, inputId, calculate) {
         return (
@@ -46,18 +45,5 @@ class Calculator extends React.Component {
     }
 }
 
-// class Calculate extends React.Component {
-//     render() {
-//         return (
-//             <div className="container">
-//                 <h4></h4>
-//             </div>
-//         )
-//     }
-// }
 
-
-ReactDOM.render(
-    <Calculator/>,
-    document.getElementById("root")
-);
+ReactDOM.render(<Calculator/>, document.getElementById("root"));
