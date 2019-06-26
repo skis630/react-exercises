@@ -1,0 +1,25 @@
+body {
+    background: thistle;
+}
+
+.green {  
+    background-color: rgb(104, 189, 104);
+}
+
+.blue {
+    background-color: lightslategray;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.purple {
+    background-color: rgb(197, 107, 197);
+}
+
+.green, .blue, .pink, .purple {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
