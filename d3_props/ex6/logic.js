@@ -24,12 +24,12 @@ class App extends React.Component {
 
 ReactDOM.render(
     <App>
-            <Box size="xs"></Box>
-            <Box size="sm"></Box>
-            <Box size="md"></Box>
-            <Box size="sm"></Box>
-            <Box size="xs"></Box>
-            <Box size="lg"></Box>    
+        <Box size="xs"></Box>
+        <Box size="sm"></Box>
+        <Box size="md"></Box>
+        <Box size="sm"></Box>
+        <Box size="xs"></Box>
+        <Box size="lg"></Box>    
     </App>,
     document.getElementById("root")
 );
