@@ -1,3 +1,31 @@
 body {
     background: thistle;
 }
+
+.container div:not(.lg) {
+    display: inline-block;
+    background-color: rgb(145, 32, 85);
+    margin: 3px;
+}
+
+.xs {
+    width: 10px;
+    height: 10px;
+}
+
+.sm {
+    width: 25px;
+    height: 25px;
+}
+
+.md {
+    width: 55px;
+    height: 55px;
+}
+
+.lg {
+    width: 150px;
+    height: 150px;
+    margin-left: 2px;
+    background-color: rgb(145, 32, 85);
+}
