@@ -1,3 +1,69 @@
 body {
-    background: thistle;
+    background-color: #8694A6; 
+   
 }
+
+.row {
+    padding: 70px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row; 
+    height: 100vh; 
+}
+
+.bg {
+    background-color: #EEF5FD;
+    margin: 10px;
+    width: 240px;
+    height: 400px;
+    float: none;
+}
+
+#item1, #item2, #item3 {
+    width: 200px;
+    height: 180px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#item1 {
+    background: url('./images/Capture.PNG') -50px 10px;
+}
+
+#item2 {
+    background: url('./images/Capture.PNG') -320px 10px;   
+}
+
+#item3 {
+    background: url('./images/Capture.PNG') -600px 10px;      
+}
+
+p {
+    margin: auto;
+    width: 60%;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+    margin: 0 5px;
+    width: 5px;
+    height: 5px;
+}
+
+.carousel-indicators li {
+    background-color: rgb(196, 199, 202);
+    border: 1px solid rgb(196, 199, 202);
+}
+
+.carousel-indicators li.active {
+    background-color: rgb(160, 155, 155);
+    border: 1px solid rgb(160, 155, 155);
+}
+
+@media screen and (max-width: 800px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
