@@ -1,3 +1,58 @@
 body {
     background: thistle;
 }
+
+.iconBar {
+    background: rgb(247, 235, 219);
+    height: 60px;
+}
+
+.iconBar i {
+    display: inline-block;
+}
+
+.iconBar li {
+    margin-top: -25px;
+    cursor: pointer !important;
+}
+
+.iconBar ul {
+    margin: 0;
+}
+
+.nav a:hover {
+    background: transparent !important;
+    cursor: pointer !important;
+}
+
+.iconBar a {
+    color: black;
+}
+
+i.messages {
+    background-image: url('./images/messages.PNG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-left: -15px;
+}
+
+.bubble {
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    top: 15px;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    background-color: rgb(247, 252, 246);
+    cursor: pointer !important;
+}
+
+@media screen and (max-width: 900px) {
+    .iconBar {
+        height: auto;
+    }
+}

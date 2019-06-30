@@ -23,8 +23,8 @@ button {
     cursor: pointer;
 }
 
-button:disabled {
+button.disabled {
     background-color: rgb(253, 246, 236);
     color: rgb(184, 179, 174);
-    pointer-events: none;
+    cursor: auto;
 }

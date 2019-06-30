@@ -11,7 +11,10 @@ class PropApp extends React.Component {
             visibility: this.props.isVisible
         }
         return (
-            <img src={url} style={visible}></img>
+            <div style={{display: "inline-block"}}>
+                <h3>{this.props.isVisible}</h3>
+                <img src={url} style={visible}></img>
+            </div>
         )
     }
 }
@@ -35,7 +38,10 @@ class StateApp extends React.Component {
 
     render() {
         return (
-            <img src={url} onClick={this.toggleShow} className={this.state.isVisible}></img>
+            <div>
+                <h3>Click the photo to show/hide it</h3>
+                <img src={url} onClick={this.toggleShow} className={this.state.isVisible}></img>
+            </div>
         )
     }
 }

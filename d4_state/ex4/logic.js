@@ -2,18 +2,20 @@ class Button extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            disabled: false
+            disabled: ""
         }
         this.disable = this.disable.bind(this);
     }
 
     disable() {
-        this.setState({disabled: true});
+        let status = this.state.disabled ? "" : "disabled";
+
+        this.setState({disabled: status});
     }
 
     render() {
         return (
-            <button type="button" onClick={this.disable} disabled={this.state.disabled}>{this.props.color}</button>
+            <button type="button" onClick={this.disable} className={this.state.disabled}>{this.props.color}</button>
         );
     }
 }
