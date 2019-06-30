@@ -1,3 +1,30 @@
-body {
-    background: thistle;
+.header {
+    width: 100%;
+    height: 100px;
+    background-image: url('./images/Capture.PNG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    margin-left: 25px;
+}
+
+button {
+    background-color: rgb(247, 225, 201);
+    color: rgb(137, 119, 102);
+    border-radius: 3px;
+    padding: 10px 5px;
+    display: inline-block;
+    margin: 5px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: rgb(253, 246, 236);
+    color: rgb(184, 179, 174);
+    pointer-events: none;
 }
