@@ -1,3 +1,19 @@
 body {
     background: thistle;
 }
+
+button {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+div.hidden {
+    display: none;
+}
+
+div.show {
+    display: block;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
