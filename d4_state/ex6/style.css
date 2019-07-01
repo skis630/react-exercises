@@ -13,7 +13,6 @@ body {
 
 .iconBar li {
     margin-top: -25px;
-    cursor: pointer !important;
 }
 
 .iconBar ul {
@@ -22,11 +21,11 @@ body {
 
 .nav a:hover {
     background: transparent !important;
-    cursor: pointer !important;
 }
 
 .iconBar a {
     color: black;
+    cursor: pointer !important;
 }
 
 i.messages {
