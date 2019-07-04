@@ -11,10 +11,16 @@ class Checkbox extends React.Component {
         this.setState({isChecked: !this.state.isChecked})
     }
 
+    componentWillUpdate(nextProps, nextState) {
+        if (this.props.isChecked !== nextState.isChecked) {
+            nextProps.isChecked = nextState.isChecked;
+        }
+    }
+
     render() {
         return (
             <div>
-                <input id={this.props.id} type="checkbox" checked={this.state.isChecked} onClick=
+                <input id={this.props.id} type="checkbox" checked={this.props.isChecked} onClick=
                        {this.check} />
                 <label htmlFor={this.props.is}>{this.props.text}</label>
             </div>
@@ -23,11 +29,8 @@ class Checkbox extends React.Component {
 }
 
 class App extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            isChecked: true
-        }
+    constructor() {
+        super();
     }
 
     render() {
