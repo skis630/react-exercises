@@ -1,0 +1,14 @@
+body {
+    background: thistle;
+}
+
+.box {
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+@keyframes slide {
+    from {left: -250px}
+    to {left: 50px}
+}
