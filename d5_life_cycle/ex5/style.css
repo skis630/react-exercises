@@ -1,0 +1,48 @@
+body {
+    background: thistle;
+}
+
+.container {
+    width: 200px;
+    height: 250px;
+    background-color: rgb(239, 248, 255);
+    padding: 0;
+    display: inline-block;
+    margin: 20px;
+}
+
+.heading {
+    background-color: rgb(72, 61, 139);
+    padding: 10px;
+    color: white;
+}
+
+h3 {
+    margin: 0;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: #6294EB;
+    margin: auto;
+}
+
+.circle p {
+    transform: translate(0, 110%);
+}
+
+.body {
+    padding: 20px;
+    position: relative;
+    height: 100%;
+}
+
+.progress {
+    position: absolute;
+    bottom: 50px;
+    height: 15px;
+    width: 80%;
+}
+
